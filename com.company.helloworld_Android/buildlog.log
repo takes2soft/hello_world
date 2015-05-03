@@ -1,0 +1,182 @@
+
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\takes2\AppData\Local\Android\sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\takes2\AppData\Local\Android\sdk\PLATFO~1
+C:\Users\takes2\AppData\Local\Android\sdk\platform-tools\adb.exe kill-server
+____________________
+</DW>
+WARNING: no icon was specified in app settings. using default.
+WARNING: no splash screen was specified in app settings. using default.
+Android 用シードアプリケーションをコピーしています
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\takes2\AppData\Local\Android\sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\git\repos\HELLO_~1\COMCOM~1.HEL
+C:\windows\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\DWPHON~1\android\scripts\droidGap.bat "C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS5.5\Configuration\NativeAppFramework\DWPhoneGap\android\PhoneGapApp" "HelloWorld" com.company.helloworld 1.0 "C:\Users\takes2\AppData\Local\Android\sdk" 2
+____________________
+</DW>
+CCreated project directory: C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld
+Created directory C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\src\com\company\helloworld
+Added file C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\src\com\company\helloworld\DefaultActivity.java
+Created directory C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\res
+Created directory C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\bin
+Created directory C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\libs
+Created directory C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\res\values
+Added file C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\res\values\strings.xml
+Created directory C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\res\layout
+Added file C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\res\layout\main.xml
+Created directory C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\res\drawable-hdpi
+Created directory C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\res\drawable-mdpi
+Created directory C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\res\drawable-ldpi
+Added file C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\AndroidManifest.xml
+Added file C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\build.xml
+Added file C:\git\repos\hello_world\com.company.helloworld_Android\com.company.helloworld\proguard-project.txt
+CLONE SUCCESSFUL
+
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\takes2\AppData\Local\Android\sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\git\repos\HELLO_~1\COMCOM~1.HEL
+C:\windows\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1\bin\ant.bat debug
+____________________
+</DW>
+Buildfile: C:\git\repos\HELLO_~1\COMCOM~1.HEL\build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.1.2
+ [checkenv] Installed at C:\Users\takes2\AppData\Local\Android\sdk
+
+-setup:
+     [echo] Project Name: helloworld
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for helloworld...
+[gettarget] Project Target:   Google APIs
+[gettarget] Vendor:           Google Inc.
+[gettarget] Platform Version: 4.0.3
+[gettarget] API level:        15
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res
+    [mkdir] Created dir: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\rsObj
+    [mkdir] Created dir: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\rsLibs
+    [mkdir] Created dir: C:\git\repos\HELLO_~1\COMCOM~1.HEL\gen
+    [mkdir] Created dir: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\classes
+    [mkdir] Created dir: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for helloworld...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+[dependency] API<=15: Adding annotations.jar to the classpath.
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 3 source files to C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\classes
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\classes
+      [dex] input: C:\git\repos\HELLO_~1\COMCOM~1.HEL\libs\cordova.jar
+      [dex] input: C:\Users\takes2\AppData\Local\Android\sdk\tools\support\annotations.jar
+      [dex] Pre-Dexing C:\git\repos\HELLO_~1\COMCOM~1.HEL\libs\cordova.jar -> cordova-e55e16cd580cc1e52d9601b1cfa5c4c6.jar
+      [dex] Pre-Dexing C:\Users\takes2\AppData\Local\Android\sdk\tools\support\annotations.jar -> annotations-89f2d61dbe4f70ccd9522583df1f559f.jar
+      [dex] Converting compiled files and external libraries into C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\classes.dex...
+       [dx] Merged dex A (9 defs/2.7KiB) with dex B (92 defs/168.9KiB). Result is 101 defs/208.8KiB. Took 0.1s
+       [dx] Merged dex A (101 defs/208.8KiB) with dex B (2 defs/1.1KiB). Result is 103 defs/269.4KiB. Took 0.0s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res
+   [crunch] To destination dir: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable-hdpi\ic_launcher.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-hdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-hdpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable-hdpi\icon.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-hdpi\icon.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-hdpi\icon.png: 0% size of source)
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable-hdpi\splash.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-hdpi\splash.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-hdpi\splash.png: 45% size of source)
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable-ldpi\ic_launcher.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-ldpi\ic_launcher.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-ldpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable-ldpi\icon.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-ldpi\icon.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-ldpi\icon.png: 0% size of source)
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable-ldpi\splash.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-ldpi\splash.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-ldpi\splash.png: 45% size of source)
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable-mdpi\ic_launcher.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-mdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-mdpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable-mdpi\icon.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-mdpi\icon.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-mdpi\icon.png: 0% size of source)
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable-mdpi\splash.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-mdpi\splash.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable-mdpi\splash.png: 45% size of source)
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable\icon.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable\icon.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable\icon.png: 0% size of source)
+   [crunch] Processing image to cache: C:\git\repos\HELLO_~1\COMCOM~1.HEL\res\drawable\splash.png => C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable\splash.png
+   [crunch]   (processed image to cache entry C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\res\drawable\splash.png: 45% size of source)
+   [crunch] Crunched 11 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+     [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating helloworld-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\helloworld-debug.apk
+[propertyfile] Creating new property file: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\build.prop
+[propertyfile] Updating property file: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\build.prop
+[propertyfile] Updating property file: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\build.prop
+[propertyfile] Updating property file: C:\git\repos\HELLO_~1\COMCOM~1.HEL\bin\build.prop
+
+-post-build:
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 11 seconds
